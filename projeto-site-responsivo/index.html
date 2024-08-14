@@ -8,8 +8,9 @@
     <title>Nicolas - Projeto Site Responsivo</title>
 </head>
 <body>
+    <!--background preto-->
     <div class="background-preto">
-        <!--CABECARIO-->
+        <!--cabecario-->
         <header>
             <!-- container -->
             <div class="container">
@@ -31,8 +32,8 @@
             </div>
             <!--end container-->
         </header>
-        <!--FIM DO CABECARIO-->
-        <!--CONTEUDO PRINCIPAL (tags semanticas)-->
+        <!--end cabecario-->
+        <!-- conteudo principal (tags semanticas)-->
         <main>
             <!--conteiner-->
             <div class="container">
@@ -45,7 +46,7 @@
                         <img src="./img/verificado.png" alt="Verificado">
                     </div>
                 </div>
-                <!--main text-->
+                <!--end main text-->
                 <!--main img-->
                 <div class="main-img">
                     <img src="./img/jornal.png" alt="jornal com fenix na capa">
@@ -54,7 +55,7 @@
             </div>
             <!--end conteiner-->
         </main>
-        <!--CONTEUDO PRINCIPAL-->
+        <!--end conteudo principal-->
     </div>
     <!--end background preto-->
     <!--resultados-->
@@ -85,8 +86,9 @@
     <!--section diferenciais-->
     <section class="diferenciais">
         <div class="container">
+            <!--cardS-->
             <div class="card">
-                <img src="./img/smile.png" alt="icone feliz">
+                <img id="smile" src="./img/smile.png" alt="icone feliz">
                 <h3>Estúdio Renomado</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -95,8 +97,8 @@
                 </p>
             </div>
             <div class="card">
-                <img src="./img/hangloose.png" alt="icone hangloose">
-                <h3>Atendimento 12h</h3>
+                <img id="hangloose" src="./img/hangloose.png" alt="icone hangloose">
+                <h3>Múltiplos Prêmios</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -104,8 +106,8 @@
                 </p>
             </div>
             <div class="card">
-                <img src="./img/label.png" alt="icone etiqueta">
-                <h3>Matrizes estaduais</h3>
+                <img id="label" src="./img/label.png" alt="icone etiqueta">
+                <h3>Matriz em Paranaguá</h3>
                 <p>
                     Lorem ipsum dolor sit amet, 
                     consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -140,6 +142,113 @@
         </div>
     </section>
     <!--end section casas-->
+    <!--section estudios-->
+    <section class="estudios">
+        <!--container-->
+        <div class="container">
+            <p class="vermelho">
+                Se expresse do seu jeito
+            </p>
+            <h2>
+                Estilos de dança diversificados
+            </h2>
+            <div class="cards">
+                <!--card item 1-->
+                <div class="card-item">
+                    <img src="./img/bale.png" alt="bale">
+                    <p class="local-casa"> Infantil </p>
+                    <p class="nome-casa">Balé</p>
+                    <p class="contato-casa"> 00 1234-5678 <br> contato.fenixbale@email.com </p>
+                    <button>Ver Turmas</button>
+                </div>
+                <!--end card item 1-->
+                <!--card item 2-->
+                <div class="card-item">
+                    <img src="./img/break.png" alt="break">
+                    <p class="local-casa"> Infantil & Adulto </p>
+                    <p class="nome-casa">Break</p>
+                    <p class="contato-casa"> 00 1234-5678 <br> contato.fenixbreak@email.com </p>
+                    <button>Ver Turmas</button>
+                </div>
+                <!--end card item 2-->
+                <!--card item 3-->
+                <div class="card-item">
+                    <img src="./img/poppin.png" alt="poppin">
+                    <p class="local-casa"> Infantil & Adulto </p>
+                    <p class="nome-casa">Poppin</p>
+                    <p class="contato-casa"> 00 1234-5678 <br> contato.fenixpoppin@email.com </p>
+                    <button>Ver Turmas</button>
+                </div>
+                <!--end card item 3-->
+            </div>
+        </div>
+        <!--end container-->
+    </section>
+    <!--end section estudios-->
+    <!--section newsletter-->
+    <section class="newsletter">
+        <div class="container">
+            <div class="box-newsletter">
+                <h2>
+                    Entre em contato com nossa equipe
+                </h2>
+                <p>
+                    Receba aulas online, notícias, novidades e dicas importantes.
+                </p>
+                <form>
+                    <input type="email" placeholder="Digite seu e-mail">
+                    <button>Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--end section newsletter-->
+    <!--rodapé-->
+        <footer>
+            <div class="container">
+                <ul>
+                    <h3>ESTÚDIO FÊNIX</h3>
+                    <p>
+                        Lutando contra o homicídio cultural.
+                    </p>
+                    <div class="redes-sociais">
+                        <img src="./img/facebook.png" alt="facebook">
+                        <img src="./img/twitter.png" alt="twitter">
+                        <img src="./img/instagram.png" alt="instagram">
+                        <img src="./img/linkedin.png" alt="linkedin">
+                    </div>
+                </ul>
+                <ul>
+                    <h3>Link</h3>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Planos</a></li>
+                    <li><a href="#">Professores</a></li>
+                    <li><a href="#">Turmas</a></li>
+                    <li><a href="#">Estúdios</a></li>
+                </ul>
+                <ul>
+                    <h3>Suporte</h3>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Como Funciona</a></li>
+                    <li><a href="#">Características</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Comunicando</a></li>
+                </ul>
+                <ul>
+                    <h3>Nos contate</h3>
+                    <li>
+                        <p>+55 (41) 1234-5678</p>
+                    </li>
+                    <li>
+                        <p>contato.fenix@email.com</p>
+                    </li>
+                    <li>
+                        <p>Brasil</p>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    <!--end rodapé-->
     <script src="./js/main.js"></script>
 </body>
 </html>
